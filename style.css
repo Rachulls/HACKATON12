@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.contain {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 50px;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 370px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.image .bag {
+  margin-top: 40px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu #shoppingBasket {
+  display: none;
+  color: black;
+}
+.submenu:hover #shoppingBasket {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-width: 300px;
+  border-radius: 8px;
+}
+
+#lista-courseList .row {
+  margin-bottom: 20px;
+}
+.addShopingBasket {
+  margin: 10px 0;
+}
+
+.deleteMenu {
+  background-color: white;
+  color: black;
+}
+
+.contain__2 {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.text {
+  margin: 30px;
+}
+
+.btn {
+  margin-top: 30px;
+  margin-right: 20px;
+  padding: 15px 30px 15px 30px;
+  background-color: black;
+  color: white;
+  border: 1.5px solid red;
+  border-radius: 40px;
+}
+
+.contain__3 h2 {
+  transform: translate(-400px);
+}
+
+.contain__3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.menu {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  gap: 30px;
+}
+
+.card {
+  margin-bottom: 40px;
+}
+
+.card img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.menu h3,
+h4 {
+  padding: 0 0 20px 20px;
+}
+
+.btn__card {
+  background-color: black;
+  color: white;
+  padding: 10px 80px 10px 80px;
+  transform: translate(20px);
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.contain__4 {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.contain__4 h2 {
+  padding: 10px 0 0 50px;
+  font-size: 80px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.item__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.redes {
+  display: flex;
+  gap: 40px;
+  padding-left: 20px;
+}
+
+.map {
+  filter: grayscale(100%) invert(92%) contrast(93%);
+}
+
+.contain__5 {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.icon-cart {
+  width: 40px;
+  height: 40px;
+  stroke: white;
+}
+
+.icon-close {
+  width: 25px;
+  height: 25px;
+}
+
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.precio__total{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+}
